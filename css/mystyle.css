@@ -108,11 +108,11 @@ h1,h2{
   position: relative;
  /*background-color:black;*/
   height: 150px;
-  width: 790px;
+  width: 900px;
 
   display:flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
   align-items: center;
 
 }
