@@ -3,9 +3,9 @@
 body{
 	padding:0;
 	margin:0;
-	height:100vh;
   font-family: 'Lato', sans-serif;
   background-image: url("../css/20190127_114153.jpg");
+  background-color: gray;
   background-size:cover;
 	background-color:gray;
   background-repeat: no-repeat;
@@ -18,14 +18,14 @@ body{
 	display:none;
 }
 .sidebar{
-  /*font-family: 'Roboto Condensed', sans-serif;*/
+  font-family: 'Roboto Condensed', sans-serif;
 	position:absolute;
 	right:0px;
 	width: 250px;
-	height:auto;
+	height:1050px;
 	background:rgba(47, 50, 56);
 	letter-spacing:2px;
-
+margin-left: 10px;
 
 }
 
@@ -70,7 +70,7 @@ ul li:hover{
  width:auto;
  text-align: justify;
 
- height:560px;
+ height:750px;
   color:rgb(187, 249, 252);
   margin-left: 0px;
   font-size: 15pt;
@@ -87,7 +87,9 @@ ul li:hover{
    color:rgb(187, 249, 252);
    margin-left: 10px;
 }
-
+h1,h2{
+  font-family: 'Lato', sans-serif;
+}
 #footer{
   position:relative;
   bottom:0px;
@@ -97,19 +99,19 @@ ul li:hover{
  /*background-color: rgba(0,0,0,0.71);*/
 
   display:flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items:flex-end;
 }
 
 #contect{
   position: relative;
-  /*background-color:black;*/
+ /*background-color:black;*/
   height: 150px;
-  width: 100%;
+  width: 790px;
 
   display:flex;
-  flex-direction: column;
-  justify-content:space-around;
+  flex-direction: row;
+  justify-content:space-between;
   align-items: center;
 
 }
@@ -118,7 +120,7 @@ ul li:hover{
   color:white;
   background:black;
   padding: 10px;
-  margin: 5px 5px;
+  /*margin: 5px 5px;*/
   font-size:12pt;
 
 }
