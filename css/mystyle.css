@@ -24,7 +24,7 @@ body{
 	right:0px;
 	width: 250px;
 	height:1050px;
-	background:rgba(47, 50, 56);
+	background:rgba(161, 107, 6);
 	letter-spacing:2px;
 margin-left: 10px;
 
@@ -35,7 +35,7 @@ margin-left: 10px;
 	color:white;
 	text-align:center;
 	line-height:70px;
-	background:rgb(6, 4, 54);
+	background:rgb(56, 38, 4);
 	user-select:none;
 }
 
@@ -72,7 +72,7 @@ ul li:hover{
  text-align: justify;
 
  height:750px;
-  color:rgb(187, 249, 252);
+  color:rgb(225, 232, 242);
   margin-left: 0px;
   font-size: 15pt;
   word-spacing: 5px;
@@ -85,7 +85,7 @@ ul li:hover{
 .content h1{
   font-size: 20pt;
    font-family: 'Lato', sans-serif;
-   color:rgb(187, 249, 252);
+   color:rgb(225, 232, 242);
    margin-left: 10px;
 }
 h1,h2{
