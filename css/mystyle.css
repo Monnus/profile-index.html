@@ -114,7 +114,7 @@ h1,h2{
 	flex-wrap:wrap;
   flex-direction: row;
   justify-content:space-around;
-  align-items: center;
+  align-items: flex-end;
 
 }
 #contect input{
