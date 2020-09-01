@@ -1,18 +1,20 @@
-/*font-family: 'Lato', sans-serif;*/
+/*font-family: 'Lato', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+/*background-color: rgb(139, 143, 140); gray
+background-color:rgb(191, 93, 2); brown
+background-color: rgb(255, 255, 5); pink
+backround-color: rgba(0,0,0,0.4);
+*/
 /*font-family: 'Roboto Condensed', sans-serif;*/
 body{
-	padding:0;
-	margin:0;
-	height:100vh;
+  height: 100vh;
   font-family: 'Lato', sans-serif;
-  background-image: url("../css/20190127_114153.jpg");
-  background-color: gray;
+  background-image: url("../css/20200831_110452.jpg");
+  background-color: lightgray;
   background-size:cover;
 	background-color:gray;
   background-repeat: no-repeat;
   list-style:none;
-  text-decoration:none;
-  color:white;
 }
 
 #check{
@@ -23,8 +25,8 @@ body{
 	position:absolute;
 	right:0px;
 	width: 250px;
-	height:1050px;
-	background:rgba(161, 107, 6);
+	height:100%;
+	background-color: rgb(139, 143, 140);
 	letter-spacing:2px;
 margin-left: 10px;
 
@@ -39,7 +41,7 @@ margin-left: 10px;
 	user-select:none;
 }
 
-.sidebar ul a{
+.sidebar a{
   display:block;
   width: 100%;
   height:100%;
@@ -47,12 +49,12 @@ margin-left: 10px;
   padding-left: 40px;
   box-sizing: border-box;
   /*border-top:1px solid rgba(0,0,0,0.7);*/
-
- transition:;
+transition:;
 }
-ul li:hover{
+
+.sidebar li:hover{
   padding:10px;
-  background: rgba(74, 57, 65,0.8);
+  background: rgba(191, 93, 2,0.8);
 }
 .sidebar  li {
   font-size:15pt;
@@ -67,9 +69,10 @@ ul li:hover{
   text-decoration: none;
 }
 .content{
+  position:;
  background-color: rgba(0,0,0,0.3);
- width:auto;
- text-align: justify;
+ width:70em;
+
 
  height:750px;
   color:rgb(225, 232, 242);
@@ -79,20 +82,27 @@ ul li:hover{
 /* font-family: "Lato" sans-serif;*/
 
 }
-.content p{
-  letter-spacing: 2px;
-}
+
 .content h1{
   font-size: 20pt;
    font-family: 'Lato', sans-serif;
    color:rgb(225, 232, 242);
    margin-left: 10px;
 }
-h1,h2{
+
+h1,h3{
   font-family: 'Lato', sans-serif;
+  color:rgb(212, 214, 255);
 }
+
+.content p{
+  letter-spacing: 2px;
+  padding-left: 20px;
+  font-family: "Lato" sans-serif;
+}
+
 #footer{
-  position:relative;
+  /*position:relative;*/
   bottom:0px;
 
   width:100%;
@@ -105,29 +115,32 @@ h1,h2{
 }
 
 #contect{
-  position: relative;
- /*background-color:black;*/
+  position:;
+ background-color:rgba(0,0,0,0.5);
   height: 150px;
-  width: 900px;
+  width:100%;
 
   display:flex;
-	flex-wrap:wrap;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: flex-end;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content:center;
+  align-items:flex-start;
 
 }
 #contect input{
+  outline:none;
   font-family: 'Lato', sans-serif;
-  color:white;
-  background:black;
+  color:black;
+  background:white;
   padding: 10px;
   /*margin: 5px 5px;*/
   font-size:12pt;
 
 }
  .button{
+   outline:none;
+   color:black;
    display:inline-block;
    width:100px;
-	justify-content:start; 
+	justify-content:start;
  }
